@@ -9,7 +9,7 @@
 $ apt update && apt upgrade
 $ pkg install -y root-repo
 $ pkg install -y git tsu python wpa-supplicant pixiewps iw
-$ git clone https://github.com/ImErrorX/ExWiFi
+$ git clone https://github.com/FakeErrorX/ExWiFi
 $ cd ExWiFi
 $ chmod +x ErrorX.py
 $ sudo python ErrorX.py --help
