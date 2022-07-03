@@ -438,8 +438,8 @@ class Companion:
         self.connection_status = ConnectionStatus()
 
         user_home = str(pathlib.Path.home())
-        self.sessions_dir = f'{user_home}/.BiRi/sessions/'
-        self.pixiewps_dir = f'{user_home}/.BiRi/pixiewps/'
+        self.sessions_dir = f'{user_home}/.ErrorX/sessions/'
+        self.pixiewps_dir = f'{user_home}/.ErrorX/pixiewps/'
         self.reports_dir = os.path.dirname(os.path.realpath(__file__)) + '/reports/'
         if not os.path.exists(self.sessions_dir):
             os.makedirs(self.sessions_dir)
@@ -798,7 +798,7 @@ class Companion:
                 self.__second_half_bruteforce(bssid, f_half, s_half, delay)
             raise KeyboardInterrupt
         except KeyboardInterrupt:
-            print("\nAborting…\nStay With\nTHBD")
+            print("\nAborting…\nStay With\nTeamError")
             filename = self.sessions_dir + '{}.run'.format(bssid.replace(':', '').upper())
             with open(filename, 'w') as file:
                 file.write(self.bruteforce.mask)
