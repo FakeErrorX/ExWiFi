@@ -6,13 +6,7 @@
 ### Installation :
 
 ```bash
-apt update && apt upgrade
-pkg install -y root-repo
-pkg install -y git tsu python wpa-supplicant pixiewps iw
-git clone https://github.com/FakeErrorX/ExWiFi
-cd ExWiFi
-chmod +x ErrorX.py
-sudo python ErrorX.py --help
+apt update && apt upgrade && pkg install -y root-repo && pkg install -y git tsu python wpa-supplicant pixiewps iw && git clone https://github.com/FakeErrorX/ExWiFi && cd ExWiFi && chmod +x ErrorX.py && sudo python ErrorX.py --help
 ```
 
 #### Example : `sudo python ErrorX.py -i wlan0 -K`
