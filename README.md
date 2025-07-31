@@ -16,18 +16,11 @@ This tool is for **educational and authorized testing purposes only**. Only use 
 ## 🚀 Installation
 
 ```bash
-# Update system and install dependencies
 apt update && apt upgrade
 pkg install -y root-repo
 pkg install -y git tsu python wpa-supplicant pixiewps iw
-
-# Clone repository and set up
 git clone https://github.com/FakeErrorX/ExWiFi
 cd ExWiFi
-chmod +x ErrorX.py
-
-# Test installation
-sudo python ErrorX.py --help
 ```
 
 ## 📖 Usage
